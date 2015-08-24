@@ -20,6 +20,9 @@ TestDump.java is test example to get the entire page dump which helps to the get
 
 once the test are completed, navigate to src/test/resources/contactsPage-dump/page.html
 
+PageDump:
+https://www.youtube.com/watch?v=QyDL3jJyCwA&feature=youtu.be
+
 
 Note: For some reason checkLayout fails on android emulator.
 
