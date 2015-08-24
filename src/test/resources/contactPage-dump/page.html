@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>Galen Page Dump</title>
+        <link rel="stylesheet" type="text/css" href="galen-pagedump.css"></link>
+        <script src="jquery-1.11.2.min.js"></script>
+        <script src="galen-pagedump.js"></script>
+        <script>
+var pageData = {"pageName":"HomePage","title":"Google","items":{"lucky":{"area":[541,357,116,29],"text":"I'm Feeling Lucky","hasImage":true},"search":{"area":[423,357,102,29],"text":"Google Search","hasImage":true},"fullpage":{"area":[0,0,1080,545],"text":"Gmail\nImages\nSign in\nGoogle.co.in offered in: हिन्दी বাংলা తెలుగు मराठी தமிழ் ગુજરાતી ಕನ್ನಡ മലയാളം ਪੰਜਾਬੀ\nPrivacy Terms Settings\nUse Google.com\nAdvertising Business About","hasImage":true}}};
+        </script>
+    </head>
+
+    <body>
+        <script>
+            $(function () {
+                initGalenPageDump(pageData);
+            });
+        </script>
+        <h1>HomePage - Galen page dump</h1>
+        <div class="image">
+            <div class="canvas">
+            </div>
+            <img src="page.png">
+            <div class="bottombarstub"></div>
+        </div>
+        <div id="sidebar">
+            <div class="wrapper">
+                <div id="object-list">
+                    <h2>All objects:</h2>
+                    <ul>
+                    </ul>
+                </div>
+                <div id="object-details" style="display: none;">
+                    <h2>Details</h2>
+                    <span class="field-name">Name:</span>
+                    <span class="field-value xf-object-name"></span>
+
+                    <span class="field-name">Area:</span>
+                    <span class="field-value xf-object-area"></span>
+
+                    <span class="field-name">Text:</span>
+                    <span class="field-value xf-object-text"></span>
+                    
+                    <span class="field-name">Image:</span>
+                    <div class="image"></div>
+
+                </div>
+                <div class="bottombarstub"></div>
+            </div>
+        </div>
+        <div id="bottombar">
+            <div class="wrapper">
+                <div id="object-suggestions" style="display: none;">
+                    <h2>Spec Suggestions</h2>
+                    <div class="spec-list">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
