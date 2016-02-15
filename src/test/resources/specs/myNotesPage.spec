@@ -48,6 +48,6 @@
             inside content ~ 20 px left
             aligned vertically left note-1
 
-    @on mobile
+    @on android
         button-addnote:
             inside content ~ 20px left right

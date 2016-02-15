@@ -62,7 +62,7 @@
             near login-button 3 to 8px right
 
 
-    @on mobile
+    @on android
         login-box:
             inside screen ~ 20px left right
 

@@ -15,6 +15,6 @@
             above login-button 10 to 30px
 
 
-    @on mobile
+    @on android
         error-message:
             aligned vertically all login-button

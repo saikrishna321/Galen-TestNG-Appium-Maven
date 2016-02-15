@@ -46,7 +46,7 @@
 
 
 
-    @on mobile
+    @on android
         button-add, button-cancel:
             aligned vertically all description-textfield
 

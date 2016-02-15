@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.galenframework:galen-rainbow4j:2.0.3">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/galenframework/galen-rainbow4j/2.0.3/galen-rainbow4j-2.0.3.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/galenframework/galen-rainbow4j/2.0.3/galen-rainbow4j-2.0.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/galenframework/galen-rainbow4j/2.0.3/galen-rainbow4j-2.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

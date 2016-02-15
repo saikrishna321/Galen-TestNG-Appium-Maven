@@ -44,7 +44,7 @@
         login-button:
             width ~ 78px
 
-    @on mobile
+    @on android
         greeting:
             height ~ 78px
             inside welcome-block ~ 50 px top

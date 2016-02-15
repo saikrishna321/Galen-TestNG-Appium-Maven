@@ -31,7 +31,7 @@
             text is "Sample Website for Galen Framework"
 
 
-    @on mobile, tablet
+    @on android, tablet
         header-text:
             text is "Sample Website"
 
@@ -64,7 +64,7 @@
                 aligned horizontally all ${previousMenuItem}
 
 
-    @on mobile
+    @on android
         menu-item-* :
             width 48 to 50% of screen/width
 
